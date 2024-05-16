@@ -1,0 +1,48 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Thu May 16 14:19:42 2024
+
+@author: valhalla Rising - Discipulo do Doutor Professor Jânio
+
+"""
+
+num1 = 7 # é um número inteiro, que foi convertido em float, na linha 14
+num2 = 14.7
+
+#print (type(num1)) # identificando o tipo de numero, neste caso, é int
+#print (type(num2)) # identificando o tipo de numero, neste caso, é float
+
+a = float (num1) # convertendo inteiro em float
+#print (a)
+
+b = int (num2)
+#print (b)
+#print (type(b))
+
+a = int (float("7.7"))
+
+
+#print (type(a))
+
+num1 + num2 # operadores aritimeticos = soma
+num1 - num2 # subtração
+num1 * num2 # multiplicação
+num1 / num2 # divisão
+num1 ** num2 # exponenciação
+num1 // num2 # divisão inteira
+num1 % num2 # resto da divisão
+
+#print (10 + 7 * 2 + 1)
+#print ((10 + 7) * (2 + 1))
+
+#print (abs (-14))
+#print (pow (7, 7))
+#print (max (2,7))
+#print (min(2,7))
+#print (round (7.4))
+
+import math
+ 
+print (math.floor(7.7)) # arredonda para baixo
+print (math.ceil (7.2111)) # arredonda para cima
+print (math.sqrt (81))
