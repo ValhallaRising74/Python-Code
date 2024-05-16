@@ -1,0 +1,37 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat May 11 21:20:50 2024
+
+@author: valhalla rising
+"""
+
+#def livro__filme ():
+    #print ("valhalla rising")
+    
+#print ("Beggining")    
+#livro__filme()
+#print ("Sucess")
+
+#def make__a__history (book):
+    #print (f" pages {book}")
+    
+#make__a__history("Draw")
+#make__a__history("Art")
+#make__a__history("Letters")
+    
+def calcular_media(lista):
+    total = sum(lista)
+    media = total / len(lista)
+    return media
+
+def verificar_paridade(numero):
+    if numero % 2 == 0:
+        return "par"
+    else:
+        return "ímpar"
+    
+def all(iterable):
+    for element in iterable:
+        if not element:
+            return False
+    return True    
